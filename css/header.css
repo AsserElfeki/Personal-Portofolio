@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: #be3144;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  border: 5px solid green;
+
+}
+
+.my-pic{
+
+
+    border: 5px solid blue;
+}
+
+.navbar {
+  flex-basis: 70%;
+  height: 4em;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar a {
+  padding: 0px 35px;
+  color: white;
+  font-size: 1.5em;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.navbar a:hover {
+  color: rgb(45, 45, 45);
+}

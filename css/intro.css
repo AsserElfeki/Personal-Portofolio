@@ -1,0 +1,27 @@
+#welcome-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(69, 72, 77); /* Old browsers */
+    background: linear-gradient(
+      45deg,
+      rgb(22, 82, 178) 0%,
+      rgb(153, 131, 32) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  }
+  
+  #welcome-section h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4rem;
+    margin: 0px;
+    color: #f1faee;
+  }
+  
+  
+  #welcome-section h3 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #e63946;
+  }
